@@ -1,0 +1,60 @@
+
+.navbar{
+  background-color:rgb(44,62,80) ;
+}
+
+Footer{
+  background-color:rgb(44,62,80) ;
+}
+.end{
+  background-color: rgb(26,37,47);
+}
+header{  background-color: rgb(26,188,156);
+
+}
+.about{
+  background-color: rgb(26,188,156);
+
+}
+.layout{
+
+position: relative;
+
+}
+.item{
+position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(26,188,156);
+  opacity: 0;
+  transition: all 0,3;
+  cursor: pointer;
+
+
+}
+
+.fa-plus{
+  font-size: 50px;
+  font-weight: 300;
+  color: white;
+}
+
+
+.layout:hover .item{
+opacity: 1;
+}
+
+
+.send{
+color: white;
+background-color: rgb(26,188,156);
+
+}
+
+
+
+
+
+
